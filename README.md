@@ -1,5 +1,5 @@
 ![](https://w7.pngwing.com/pngs/134/376/png-transparent-wall-decal-sticker-technology-business-technology-electronics-company-text-thumbnail.png)
-
+![](https://images.fineartamerica.com/images/artworkimages/medium/2/armor-insignia-mike-harris-transparent.png)
 Borrar y modificar a su gusto este README, pero antes utilizar estas condiciones de entrega del trabajo.
 
 # Utilizar los dos directorios
