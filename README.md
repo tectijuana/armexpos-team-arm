@@ -1,4 +1,4 @@
-![](https://w7.pngwing.com/pngs/134/376/png-transparent-wall-decal-sticker-technology-business-technology-electronics-company-text-thumbnail.png)
+![](https://static.vecteezy.com/system/resources/thumbnails/019/638/944/small/blue-globe-with-technology-elements-png.png)
 
 Borrar y modificar a su gusto este README, pero antes utilizar estas condiciones de entrega del trabajo.
 
