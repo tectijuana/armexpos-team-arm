@@ -61,65 +61,23 @@ Palacios Cordova Gonzalo 21210407
 
 	<p align=left>
 
-Repositorio en el cual se desarrollaron distintos ejercicios en el lenguaje de 
-programacion c++, tomados del libro "Problemas para resolver con computadora" 
-1ra edicion (1985), por el autor Donald D. Spencer. 
-
-Los ejercicios corresponden al capitulo 6 del libro, entre las paginas 77 a 86.
-Se realizaron 25 problemas debido a la entrega fuera del limite de tiempo.
-
-CONDICIONES:
-
-	EXTEMPORÁNEOS DE LA FECHA DE ENTREGA, despues del 25 de marzo y 1 segundo:
-
-	-Solo 25 problemas a resolver y están en aleatorio las condiciones de uso, 
-		algunos simples otros de recordar, etc. CAPITULO 6 en adelante.
-
-	-Agregar las indicaciones de los criterios de la rùbrica
+Que es BRANCHING:
 	
-RÚBRICA:
+El término "branching" en el contexto de ARM (Advanced RISC Machine) de 32 bits se refiere a una operación fundamental que implica cambiar el flujo de ejecución de un programa a una dirección de memoria diferente, generalmente condicionada por alguna evaluación de una condición específica. Este mecanismo es esencial para el control de flujo y la ejecución de programas de manera efectiva. A continuación, proporcionaremos información detallada sobre cómo funciona, su importancia y ejemplos relevantes de "branching" en ARM de 32 bits.
 
-        Todo problema es necesario siga el templete OBLIGATORIO para entregar el 
-		problema codificado, usted puede correr sus programas con su estilo 
-		pero ya que este funcionando, debe arreglarlo a presentación para su 
-		evaluación.
+COMO FUNCIONA:
 
-        MODIFICAR LA PORTADA CON MARKDOWN Y ACTUALIZARLA, esta libre de cambiar 
-		todo.
-        Los archivos deben tener su extensión .CPP (no .txt, etc.)
+El "branching" en ARM de 32 bits se logra mediante instrucciones específicas diseñadas para cambiar la secuencia de ejecución del programa. Estas instrucciones se basan en condiciones y se llaman "branch instructions". Cuando se encuentra una instrucción de salto condicional, se evalúa una condición (por ejemplo, igualdad, menor que, etc.) utilizando los registros del procesador. Dependiendo del resultado de esta evaluación, se decide si se ejecutará el salto a la nueva dirección de memoria o si se continuará con la ejecución normal.
 
-	Los problemas están en la relación siguiente:
-	
-	- 100% Sigue el templete proporcionado por el docente y corren 10 
-		Problemas (o si incremento en programas por supuesta dificultad) 
-		completamente en GITHUB Classroom (no repositorio personal),  los 
-		archivos deben tener su extensión .CPP (no .txt, .EXE, etc.) acomodados 
-		en dentro de un directorio  (sin acentos o simbolos) SOLO FUENTES, y 
-		modifica el README.md que sea una portada.
-	- 80% Sigue el templete proporcionado por el docente y corre 8 Problemas 
-		(o si incremento en programas por supuesta dificultad) completamente 
-		en GITHUB Classroom (no repositorio personal), los archivos deben 
-		tener su extensión .CPP (no .txt, etc.) acomodados en dentro de un 
-		directorio (sin acentos o simbolos) SOLO FUENTES, y modifica el 
-		README.md que sea una portada.
-	- 70% Sigue el templete proporcionado por el docente y corre 7 Problemas 
-		(o si incremento en programas por supuesta dificultad) completamente 
-		en GITHUB Classroom (no repositorio personal), los archivos deben 
-		tener su extensión .CPP (no .txt, etc.) acomodados en dentro de un 
-		directorio (sin acentos o simbolos) SOLO FUENTES, y modifica el 
-		README.md que sea una portada.
-	- 50 % EVITA Y NO USA el templete proporcionado por el docente sus Problemas 
-		(o si incremento en programas por supuesta dificultad) completamente 
-		en GITHUB Classroom (no repositorio personal) con mas de 7 problemas 
-		resueltos, los archivos NO tener su extensión .CPP y  puede o no estar 
-		acomodados en dentro de un directorio (sin acentos o simbolos) 
-		SOLO FUENTES, y modifica el README.md que sea una portada.
-
-ENTREGA:
-
-	URL del GitHub Classroom, y recuerde arreglar la PORTADA, quitar todos los 
-		elementos extras del templete, acomodarlo bien para su presentación 
-		solo lo necesario.
+CUALES SON LOS OBJETIVOS DE BRANCHING
+		
+		*Control de Flujo: Nos Permite la ejecución de diferentes bloques de código en función de ciertas condiciones, como valores de registros, banderas o resultados de operaciones.
+		*Toma de Decisiones: Nos Facilita la implementación de estructuras de control de flujo, como if-else y switch-case, para permitir la toma de decisiones basadas en condiciones específicas.
+		*Ciclos y Bucles:Facilita la implementación de bucles y ciclos, permitiendo que el programa repita un conjunto de instrucciones mientras se cumplan ciertas condiciones.
+		*Optimización del Código:Mejorar la eficiencia y la optimización del código al evitar ejecuciones innecesarias o repetitivas de instrucciones.
+		*Implementación de Subrutinas y Funciones:Habilitar la invocación y el retorno de funciones, permitiendo la modularidad del código y el reuso de bloques de código.
+		*Manejo de Excepciones y Errores:Permitir el manejo de excepciones, interrupciones y errores, redirigiendo la ejecución a rutinas de manejo específicas.
+		*Optimización de Rendimiento:Optimizar la ejecución del programa al saltar directamente a secciones relevantes de código, evitando la ejecución lineal y mejorando el rendimiento.
 
 	</p>
 
