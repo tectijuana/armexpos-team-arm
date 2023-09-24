@@ -69,15 +69,21 @@ COMO FUNCIONA:
 
 El "branching" en ARM de 32 bits se logra mediante instrucciones específicas diseñadas para cambiar la secuencia de ejecución del programa. Estas instrucciones se basan en condiciones y se llaman "branch instructions". Cuando se encuentra una instrucción de salto condicional, se evalúa una condición (por ejemplo, igualdad, menor que, etc.) utilizando los registros del procesador. Dependiendo del resultado de esta evaluación, se decide si se ejecutará el salto a la nueva dirección de memoria o si se continuará con la ejecución normal.
 
-CUALES SON LOS OBJETIVOS DE BRANCHING
+					CUALES SON LOS OBJETIVOS DE BRANCHING
 		
-		*Control de Flujo: Nos Permite la ejecución de diferentes bloques de código en función de ciertas condiciones, como valores de registros, banderas o resultados de operaciones.
-		*Toma de Decisiones: Nos Facilita la implementación de estructuras de control de flujo, como if-else y switch-case, para permitir la toma de decisiones basadas en condiciones específicas.
-		*Ciclos y Bucles:Facilita la implementación de bucles y ciclos, permitiendo que el programa repita un conjunto de instrucciones mientras se cumplan ciertas condiciones.
-		*Optimización del Código:Mejorar la eficiencia y la optimización del código al evitar ejecuciones innecesarias o repetitivas de instrucciones.
-		*Implementación de Subrutinas y Funciones:Habilitar la invocación y el retorno de funciones, permitiendo la modularidad del código y el reuso de bloques de código.
-		*Manejo de Excepciones y Errores:Permitir el manejo de excepciones, interrupciones y errores, redirigiendo la ejecución a rutinas de manejo específicas.
-		*Optimización de Rendimiento:Optimizar la ejecución del programa al saltar directamente a secciones relevantes de código, evitando la ejecución lineal y mejorando el rendimiento.
+*Control de Flujo: Nos Permite la ejecución de diferentes bloques de código en función de ciertas condiciones, como valores de registros, banderas o resultados de operaciones.
+		
+*Toma de Decisiones: Nos Facilita la implementación de estructuras de control de flujo, como if-else y switch-case, para permitir la toma de decisiones basadas en condiciones específicas.
+		
+*Ciclos y Bucles: Facilita la implementación de bucles y ciclos, permitiendo que el programa repita un conjunto de instrucciones mientras se cumplan ciertas condiciones.
+		
+*Optimización del Código: Mejorar la eficiencia y la optimización del código al evitar ejecuciones innecesarias o repetitivas de instrucciones.
+		
+*Implementación de Subrutinas y Funciones: Habilitar la invocación y el retorno de funciones, permitiendo la modularidad del código y el reuso de bloques de código.
+		
+*Manejo de Excepciones y Errores: Permitir el manejo de excepciones, interrupciones y errores, redirigiendo la ejecución a rutinas de manejo específicas.
+		
+*Optimización de Rendimiento: Optimizar la ejecución del programa al saltar directamente a secciones relevantes de código, evitando la ejecución lineal y mejorando el rendimiento.
 
 	</p>
 
