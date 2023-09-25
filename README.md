@@ -1,5 +1,4 @@
 ![](https://static.vecteezy.com/system/resources/thumbnails/019/638/944/small/blue-globe-with-technology-elements-png.png)
-![](https://images.fineartamerica.com/images/artworkimages/medium/2/armor-insignia-mike-harris-transparent.png)
 Borrar y modificar a su gusto este README, pero antes utilizar estas condiciones de entrega del trabajo.
 
 # Utilizar los dos directorios
