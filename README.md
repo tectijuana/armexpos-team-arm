@@ -51,7 +51,7 @@ Jimenez Beltran Jesus Rosalio 21210958
 Lavenant Duran Pablo Roman 21210385
 Lopez Machado Gonzalo 21210390
 Palacios Cordova Gonzalo 21210407
-
+Garcia Pineda Eduardo Alberto 20212407
 	</p>
 
 </pre>
