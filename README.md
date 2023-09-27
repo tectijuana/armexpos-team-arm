@@ -84,6 +84,34 @@ El "branching" en ARM de 32 bits se logra mediante instrucciones específicas di
 		
 *Optimización de Rendimiento: Optimizar la ejecución del programa al saltar directamente a secciones relevantes de código, evitando la ejecución lineal y mejorando el rendimiento.
 
+		             En ARM32, las instrucciones de branching suelen incluir:
+
+B (Branch): Esta instrucción se utiliza para la ramificación incondicional. Simplemente cambia el PC a la dirección especificada, permitiendo al programa saltar a una parte diferente del código incondicionalmente.
+
+Bcc (Branch si la condición es verdadera): Las instrucciones de branch condicional, como BNE (branch si no es igual) o BEQ (branch si es igual), permiten al programa branch en función del resultado de una comparación o una condición.
+
+BL (branch con enlace): Esta instrucción se utiliza para llamadas a subrutinas. Se bifurca a una dirección especificada y también guarda la dirección de retorno (dirección de la siguiente instrucción) en el registro de enlace (LR).
+
+BX (branch e intercambio): Esta instrucción se utiliza para cambiar el estado del conjunto de instrucciones. Por ejemplo, puede cambiar entre los modos ARM y Thumb en ARM32.
+
+		He aquí un ejemplo sencillo de cómo podría utilizarse una instrucción de bifurcación en el lenguaje ensamblador ARM:
+
+		    CMP R0, #0       ; Compare the value in R0 with 0
+    BEQ equal        ; Branch to "equal" if the result of the comparison is equal
+    BNE not_equal    ; Branch to "not_equal" if the result is not equal
+
+equal:
+    ; Code to execute when R0 is equal to 0
+    ...
+
+not_equal:
+    ; Code to execute when R0 is not equal to 0
+    ...
+
+En este ejemplo, las instrucciones BEQ y BNE son instrucciones de bifurcación condicional, y determinan si el programa se bifurca a la etiqueta "igual" o "no_igual" en función del resultado de la comparación.
+
+Recuerde que la sintaxis específica y las instrucciones disponibles pueden variar dependiendo de la versión de la arquitectura ARM y del lenguaje ensamblador utilizado. Además, ARM ha pasado a una arquitectura de 64 bits llamada ARMv8-A, pero ARM32 sigue siendo relevante para muchas aplicaciones.
+
 	</p>
 
 </pre>
