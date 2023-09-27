@@ -52,6 +52,7 @@ Lavenant Duran Pablo Roman 21210385
 Lopez Machado Gonzalo 21210390
 Palacios Cordova Gonzalo 21210407
 Garcia Pineda Eduardo Alberto 20212407
+Gustavo Paul Ruiz Torres 21212046
 	</p>
 
 </pre>
@@ -111,6 +112,37 @@ not_equal:
 En este ejemplo, las instrucciones BEQ y BNE son instrucciones de bifurcación condicional, y determinan si el programa se bifurca a la etiqueta "igual" o "no_igual" en función del resultado de la comparación.
 
 Recuerde que la sintaxis específica y las instrucciones disponibles pueden variar dependiendo de la versión de la arquitectura ARM y del lenguaje ensamblador utilizado. Además, ARM ha pasado a una arquitectura de 64 bits llamada ARMv8-A, pero ARM32 sigue siendo relevante para muchas aplicaciones.
+		
+Casos Prácticos:
+
+Control de Flujo: Se utiliza para implementar estructuras de control de flujo como bucles (usando saltos condicionales) o para salir de una función (usando saltos incondicionales).
+
+Manejo de Errores: En programas, se puede utilizar branching para saltar a una rutina de manejo de errores si ocurre algún problema durante la ejecución.
+
+Optimización de Código: A veces, el compilador puede generar código ineficiente. Usando saltos condicionales, puedes optimizar ciertas partes del código para que se ejecuten solo si es necesario, mejorando la eficiencia.
+
+El uso de ARM Assembly en empresas es muy amplio y abarca diversos sectores como:
+		
+Dispositivos Móviles:
+ARM es ampliamente utilizado en dispositivos móviles (teléfonos inteligentes y tablets). Empresas como Apple, Samsung, Qualcomm y MediaTek implementan ARM Assembly para optimizar el rendimiento y la eficiencia energética de sus procesadores en dispositivos móviles.
+
+Sistemas Embebidos:
+ARM es un actor dominante en el mercado de sistemas embebidos. Muchas empresas integran procesadores ARM en sistemas embebidos como microcontroladores para electrodomésticos, automóviles, sistemas de control industrial, etc.
+
+Automotriz:
+En la industria automotriz, ARM se utiliza en sistemas avanzados de infoentretenimiento, sistemas de control de motor, sistemas de navegación y seguridad.
+
+Electrónica de Consumo:
+En productos electrónicos de consumo, como televisores inteligentes, cámaras, enrutadores y consolas de juegos, ARM es una opción popular para la implementación de la CPU debido a su eficiencia y potencia.
+
+Internet de las cosas (IoT):
+En el ámbito de IoT, los dispositivos inteligentes y conectados a menudo están impulsados por procesadores ARM debido a su eficiencia energética y capacidad para manejar tareas de manera eficaz en dispositivos con recursos limitados.
+
+Servidores y Centros de Datos:
+ARM también está ganando terreno en el espacio de servidores y centros de datos, ya que empresas como Amazon Web Services (AWS) han comenzado a adoptar servidores basados en ARM para ciertos servicios, buscando la eficiencia energética y la escalabilidad.
+
+Industria Aeroespacial y de Defensa:
+En sistemas de control críticos y equipos utilizados en la industria aeroespacial y de defensa, ARM Assembly es empleado para garantizar un rendimiento y una precisión óptimos.
 
 	</p>
 
