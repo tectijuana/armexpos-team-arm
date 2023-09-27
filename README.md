@@ -60,7 +60,7 @@ Palacios Cordova Gonzalo 21210407
 
 	<p align=left>
 
-**Que es BRANCHING**:
+Que es BRANCHING:
 	
 El término "branching" en el contexto de ARM (Advanced RISC Machine) de 32 bits se refiere a una operación fundamental que implica cambiar el flujo de ejecución de un programa a una dirección de memoria diferente, generalmente condicionada por alguna evaluación de una condición específica. Este mecanismo es esencial para el control de flujo y la ejecución de programas de manera efectiva. A continuación, proporcionaremos información detallada sobre cómo funciona, su importancia y ejemplos relevantes de "branching" en ARM de 32 bits.
 
